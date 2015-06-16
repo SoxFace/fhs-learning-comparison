@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>EXSS3023: Learning Activity Comparison</title>
+		<meta name="description" content="Blueprint: A basic responsive product grid layout with comparison functionality" />
+		<meta name="keywords" content="blueprint, template, html, css, javascript, grid, layout, effect, product comparison" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<!-- Modernizr is used for flexbox fallback -->
+		<script src="js/modernizr.custom.js"></script>
+	</head>
+	<body>
+		<!-- Compare basket -->
+		<div class="compare-basket">
+			<button class="action action--button action--compare"><i class="fa fa-check"></i><span class="action__text">Compare</span></button>
+		</div>
+		<!-- Main view -->
+		<div class="view">
+			<!-- Blueprint header -->
+			<header class="bp-header cf">
+				<span>Exercise and Sports Science <span class="bp-icon bp-icon-about" data-content="The Discipline of Exercise and Sport Science focuses on the integration of exercise and physical activity into health care, sports performance, disease prevention and rehabilitation."></span></span>
+				<h1>EXSS3023: Learning Activity Comparison</h1>
+				<nav>
+					<a href="http://elearning.sydney.edu.au" class="bp-icon bp-icon-prev" data-info="back to Blackboard"><span>Previous Blueprint</span></a>
+				</nav>
+			</header>
+			<!-- Product grid -->
+			<section class="grid">
+				<!-- Products -->
+				<div class="product">
+					<div class="product__info">
+
+						<img class="product__image" src="images/1.png" alt="Product 1" />
+						<h3 class="product__title">Reading</h3>
+						<span class="product__year extra highlight">When: Before lecture</span>
+						<span class="product__region extra highlight">What: Read relevant research</span>
+						<span class="product__varietal extra highlight">Why: Explore basic concepts</span>
+						<span class="product__alcohol extra highlight">80%</span>
+						<span class="product__price highlight">Time on Task: 15min</span>
+						<button class="action action--button action--buy"><i class="fa fa-home"></i><span class="action__text">Pre-class</span></button>
+					</div>
+					<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+				</div>
+				<div class="product">
+					<div class="product__info">
+						<img class="product__image" src="images/2.png" alt="Product 2" />
+						<h3 class="product__title">Video</h3>
+						<span class="product__year extra highlight">When: Before lecture</span>
+						<span class="product__region extra highlight">What: Watch short videos explaining core concepts</span>
+						<span class="product__varietal extra highlight">Why: Explore basic concepts</span>
+						<span class="product__alcohol extra highlight">80%</span>
+						<span class="product__price highlight">Time on Task: 15min</span>
+						<button class="action action--button action--buy"><i class="fa fa-home"></i><span class="action__text">Pre-class</span></button>
+					</div>
+					<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+				</div>
+				<div class="product">
+					<div class="product__info">
+						<img class="product__image" src="images/4.png" alt="Product 4" />
+						<h3 class="product__title">Comment</h3>
+						<span class="product__year extra highlight">When: Before lecture</span>
+						<span class="product__region extra highlight">What: Add and vote on comments in the Pizza site</span>
+						<span class="product__varietal extra highlight">Why: Make meaning of basic concepts and explore more complex material</span>
+						<span class="product__alcohol extra highlight">20%</span>
+						<span class="product__price highlight">Time on Task: 15min</span>
+						<button class="action action--button action--buy"><i class="fa fa-home"></i><span class="action__text">Pre-class</span></button>
+					</div>
+					<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+				</div>
+				<div class="product">
+					<div class="product__info">
+						<img class="product__image" src="images/5.png" alt="Product 5" />
+						<h3 class="product__title">Problem Based Activity</h3>
+						<span class="product__year extra highlight">When: Before lecture</span>
+						<span class="product__region extra highlight">What: Apply your current knowledge to a case study</span>
+						<span class="product__varietal extra highlight">Why: Make meaning of basic concepts and explore more complex material</span>
+						<span class="product__alcohol extra highlight">20%</span>
+						<span class="product__price highlight">Time on Task: 15min</span>
+						<button class="action action--button action--buy"><i class="fa fa-home"></i><span class="action__text">Pre-class</span></button>
+					</div>
+					<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+				</div>
+				<div class="product">
+					<div class="product__info">
+						<img class="product__image" src="images/6.png" alt="Product 6" />
+						<h3 class="product__title">Warm-Up Poll</h3>
+						<span class="product__year extra highlight">When: During lecture</span>
+						<span class="product__region extra highlight">What: Answer a quick poll</span>
+						<span class="product__varietal extra highlight">Why: Compare your knowledge with your classmates</span>
+						<span class="product__alcohol extra highlight">10%</span>
+						<span class="product__price highlight">5min</span>
+						<button class="action action--button action--buy"><i class="fa fa-university"></i><span class="action__text">Lecture</span></button>
+					</div>
+					<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+				</div>
+				<div class="product">
+					<div class="product__info">
+						<img class="product__image" src="images/7.png" alt="Product 7" />
+						<h3 class="product__title">Lecture</h3>
+						<span class="product__year extra highlight">When: During lecture</span>
+						<span class="product__region extra highlight">What: Listen to several short lectures</span>
+						<span class="product__varietal extra highlight">Why: Explore more complex concepts</span>
+						<span class="product__alcohol extra highlight">40%</span>
+						<span class="product__price highlight">10min x 3</span>
+						<button class="action action--button action--buy"><i class="fa fa-university"></i><span class="action__text">Lecture</span></button>
+					</div>
+					<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+				</div>
+				<div class="product">
+					<div class="product__info">
+						<img class="product__image" src="images/8.png" alt="Product 8" />
+						<h3 class="product__title">Teamwork</h3>
+						<span class="product__year extra highlight">When: During lecture</span>
+						<span class="product__region extra highlight">What: Break into teams to complete activities</span>
+						<span class="product__varietal extra highlight">Why: Compare your interpretation of new content with colleagues</span>
+						<span class="product__alcohol extra highlight">30%</span>
+						<span class="product__price highlight">10min</span>
+						<button class="action action--button action--buy"><i class="fa fa-university"></i><span class="action__text">Lecture</span></button>
+					</div>
+					<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+				</div>
+				<div class="product">
+					<div class="product__info">
+						<img class="product__image" src="images/9.png" alt="Product 9" />
+						<h3 class="product__title">Quiz</h3>
+						<span class="product__year extra highlight">When: During lecture</span>
+						<span class="product__region extra highlight">What: Answer questions</span>
+						<span class="product__varietal extra highlight">Why: Judge your understanding of key concepts and correct misconceptions</span>
+						<span class="product__alcohol extra highlight">20%</span>
+						<span class="product__price highlight">5min</span>
+						<button class="action action--button action--buy"><i class="fa fa-university"></i><span class="action__text">Lecture</span></button>
+					</div>
+					<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+				</div>
+				<div class="product">
+					<div class="product__info">
+						<img class="product__image" src="images/10.png" alt="Product 10" />
+						<h3 class="product__title">Online Quiz</h3>
+						<span class="product__year extra highlight">When: Post-lecture</span>
+						<span class="product__region extra highlight">What: Answer questions in an online quiz</span>
+						<span class="product__varietal extra highlight">Why: Close the loop and verify your knowledge</span>
+						<span class="product__alcohol extra highlight">100%</span>
+						<span class="product__price highlight">30min</span>
+						<button class="action action--button action--buy"><i class="fa fa-home"></i><span class="action__text">Post-Class</span></button>
+					</div>
+					<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+				</div>
+				
+			</section>
+		</div><!-- /view -->
+		<!-- product compare wrapper -->
+		<section class="compare">
+			<button class="action action--close"><i class="fa fa-remove"></i><span class="action__text action__text--invisible">Close comparison overlay</span></button>
+		</section>
+		<script src="js/classie.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
