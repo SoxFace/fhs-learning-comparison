@@ -25,6 +25,9 @@
 	position: relative;
 	overflow: hidden;
 	margin: 5px;
+}
+
+.grid a[href] figure {
 	background: #333;
 }
 
